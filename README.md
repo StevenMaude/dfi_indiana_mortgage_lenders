@@ -8,8 +8,7 @@ mortgage lenders [data](http://extranet.dfi.in.gov/dfidb/mortgage.aspx).
 
 ## Usage
 You can run `scraper.py` directly to print out data as JSON or use
-[Turbot](https://turbot.opencorporates.com/) to dump the data into the
-`data` directory as sqlite (`turbot bots:validate`).
+[Turbot](https://turbot.opencorporates.com/) to run the scraper.
 
 ## Licence
 MIT
