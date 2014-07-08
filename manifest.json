@@ -10,7 +10,7 @@
   "files": [
     "scraper.py", "licence_transformer.py"
   ],
-  "transformers": [
+  "transformers": [{
     "file": "licence_transformer.py",
     "data_type": "simple-licence",
     "identifying_fields": ["licence_number"]
