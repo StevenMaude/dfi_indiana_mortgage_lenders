@@ -1,0 +1,19 @@
+{
+  "bot_id": "dfi_indiana_mortgage_lenders",
+  "title": "DFI Indiana Licensed Mortage Lenders scraper",
+  "description": "Scrapes DFI Indiana Licensed Mortgage Lenders",
+  "language": "python",
+  "data_type": "primary data",
+  "identifying_fields": [
+    "LicID"
+  ],
+  "files": [
+    "scraper.py", "licence_transformer.py"
+  ],
+  "transformers": [
+    "file": "licence_transformer.py",
+    "data_type": "simple-licence",
+    "identifying_fields": ["licence_number"]
+  }],
+  "frequency": "monthly"
+}
