@@ -46,7 +46,7 @@ def main():
         collected_data['source_url'] = source_url
         collected_data['sample_date'] = sample_date 
         print json.dumps(collected_data)
-    print collected_data.keys()
+
     turbotlib.log("Run finished")
 
 if __name__ == '__main__':
