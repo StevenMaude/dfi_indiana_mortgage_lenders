@@ -7,7 +7,6 @@ import turbotlib
 import lxml.html
 import requests
 
-turbotlib.log("Starting run...")  # Optional debug logging
 
 def get_column_names(etree):
     """ Return list of column names from mortgage lenders table. """
@@ -32,6 +31,7 @@ def yield_row_data(etree):
 
 def main():
     """ Scrape licensed mortgage lenders data from extranet.dfi.in.gov """
+    turbotlib.log("Starting run...")  # Optional debug logging
     source_url = 'http://extranet.dfi.in.gov/dfidb/mortgage.aspx'
     r = requests.get(source_url)
 
